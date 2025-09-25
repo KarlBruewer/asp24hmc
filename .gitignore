@@ -1,0 +1,35 @@
+# RStudio / R project files
+.Rproj.user/
+.Ruserdata
+.Rhistory
+.RData
+.RDataTmp2
+*.Rproj
+
+# R temporary / cache files
+*.rds
+*.RDS
+*.rdata
+*.RData
+
+# Local data and results
+*.csv
+data/raw/
+function_descriptions.csv
+
+# Project-specific scripts / notes
+to_do06.09.Rmd
+aufgaben.Rmd
+fine_tune_testing.R
+
+# R package build artifacts
+man/
+
+# Dependency / cache directories
+renv/library*/
+_targets/
+_cache/
+.quarto/_freeze/
+
+# OS / editor junk
+.DS_Store
