@@ -27,7 +27,7 @@ data(iris)
 
 # Define a location model and a scale model
 location_formula <- Sepal.Length ~ Sepal.Width + Petal.Length
-scale_formula <- ~ Sepal.Width  # For simplicity, we'll use Sepal.Width for the scale model
+scale_formula <- ~ Sepal.Width  
 
 # Fit the model using HMC
 # Using some reasonable parameters for this example
