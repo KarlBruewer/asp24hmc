@@ -1,6 +1,4 @@
 # asp24hmc
-
-## Introduction
 **asp24hmc** provides an implementation of the Hamiltonian Monte Carlo (HMC) algorithm in R. 
 This package allows users to perform Bayesian inference using HMC for regression models with specified location and scale components.
 
